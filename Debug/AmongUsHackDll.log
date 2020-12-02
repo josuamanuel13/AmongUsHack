@@ -1,0 +1,378 @@
+﻿  HacksFunctions.cpp
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(1868): warning C4359: 'Mono_Security_X509_X509Certificate_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(5218): warning C4359: 'System_LocalDataStoreElement_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(5270): warning C4359: 'System_LocalDataStoreSlot_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(5297): warning C4359: 'System_LocalDataStoreMgr_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(11051): warning C4359: 'System_TimeZoneInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(11124): warning C4359: 'System_TimeZoneInfo_AdjustmentRule_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(16917): warning C4359: 'System_Resources_ResourceReader_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(24790): warning C4359: 'System_Globalization_EraInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(24822): warning C4359: 'System_Globalization_GregorianCalendarHelper_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(34816): warning C4359: 'System_Security_Cryptography_SHA1Internal_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(35725): warning C4359: 'System_Runtime_Serialization_ObjectManager_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(35766): warning C4359: 'System_Runtime_Serialization_ObjectHolder_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(35804): warning C4359: 'System_Runtime_Serialization_FixupHolder_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(36486): warning C4359: 'System_Runtime_Serialization_ValueTypeFixupInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38017): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_WriteObjectInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38184): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_ObjectReader_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38283): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_ObjectWriter_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38328): warning C4359: 'System_Runtime_Serialization_Formatters_Binary___BinaryParser_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38377): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_ParseRecord_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38609): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_NameInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(41292): warning C4359: 'System_Runtime_Remoting_Messaging_AsyncResult_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(46835): warning C4359: 'System_Diagnostics_Tracing_EventSource_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(49185): warning C4359: 'System_Diagnostics_StackFrame_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(49320): warning C4359: 'System_Diagnostics_Tracing_TraceLoggingTypeInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(52844): warning C4359: 'System_Diagnostics_Tracing_EventProvider_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(53040): warning C4359: 'System_Diagnostics_Tracing_TraceLoggingEventTypes_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(53133): warning C4359: 'System_Diagnostics_Tracing_TypeAnalysis_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(53191): warning C4359: 'System_Diagnostics_Tracing_ActivityTracker_ActivityInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(56513): warning C4359: 'Mono_Security_X509_X509Certificate_1_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(57506): warning C4359: 'Mono_Security_Interface_MonoTlsSettings_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(61357): warning C4359: 'MS_Internal_Xml_XPath_XPathScanner_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(62724): warning C4359: 'System_Xml_XmlReaderSettings_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(72046): warning C4359: 'System_Xml_Schema_SchemaDeclBase_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(75965): warning C4359: 'Mono_Unity_UnityTls_unitytls_interface_struct_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(78871): warning C4359: 'System_Uri_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(79950): warning C4359: 'System_Text_RegularExpressions_Regex_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(80921): warning C4359: 'System_Diagnostics_Stopwatch_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(82629): warning C4359: 'System_Security_Cryptography_X509Certificates_X509ChainPolicy_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(83594): warning C4359: 'System_Net_IPAddress_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(85075): warning C4359: 'System_Net_Cookie_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(85276): warning C4359: 'System_Net_CookieCollection_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(86150): warning C4359: 'System_Net_DigestSession_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(87078): warning C4359: 'System_Net_ServicePoint_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(87570): warning C4359: 'System_Net_WebConnectionGroup_ConnectionState_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(118785): warning C4359: 'UnityEngine_UIElements_EventBase_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(126715): warning C4359: 'UnityEngine_Purchasing_Security_X509Cert_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127072): warning C4359: 'UnityEngine_Purchasing_Security_AppleReceipt_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127103): warning C4359: 'UnityEngine_Purchasing_Security_AppleInAppPurchaseReceipt_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127141): warning C4359: 'LipingShare_LCLib_Asn1Processor_Asn1Node_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127583): warning C4359: 'UnityEngine_Purchasing_PayoutDefinition_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(137630): warning C4359: 'UnityEngine_Purchasing_Price_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(137780): warning C4359: 'UnityEngine_Purchasing_ProductCatalogPayout_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(137981): warning C4359: 'UnityEngine_Purchasing_ProfileData_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(138224): warning C4359: 'UnityEngine_Purchasing_SubscriptionInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(139913): warning C4359: 'Hazel_ConnectionStatistics_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(140067): warning C4359: 'Hazel_UPnP_UPnPHelper_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(140130): warning C4359: 'Hazel_Udp_BroadcastPacket_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(142113): warning C4359: 'Steamworks_CallResult_T__Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(157413): warning C4359: 'Steamworks_gameserveritem_t_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(190505): warning C4359: 'StatsManager_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(194720): warning C4359: 'GoogleMobileAds_Api_AdRequest_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(194751): warning C4359: 'GoogleMobileAds_Api_AdRequest_Builder_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(291572): warning C4359: 'Steamworks_CallResult_object__Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54723): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54732): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54741): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54750): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54759): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54768): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54777): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54792): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54801): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54810): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54819): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54828): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54837): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54847): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54856): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54866): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54875): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54885): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54894): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54903): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54913): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54922): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55186): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55195): note: see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55205): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55214): note: see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55162): note: see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55171): note: see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\global.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\global.h(76): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\global.h(93): warning C4305: 'initializing': truncation from 'int' to 'bool'
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54723): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54732): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54741): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54750): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54759): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54768): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54777): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54792): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54801): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54810): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54819): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54828): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54837): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54847): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54856): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54866): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54875): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54885): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54894): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54903): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54913): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54922): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55186): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55195): note: see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55205): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55214): note: see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55162): note: see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55171): note: see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  kiero.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54723): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54732): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54741): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54750): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54759): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54768): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54777): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54792): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54801): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54810): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54819): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54828): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54837): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54847): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54856): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54866): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54875): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54885): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54894): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54903): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54913): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54922): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55186): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55195): note: see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55205): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55214): note: see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55162): note: see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55171): note: see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  AmongUsHack.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54723): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54732): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54741): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54750): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54759): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54768): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54777): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54792): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54801): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54810): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54819): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54828): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54837): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54847): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54856): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54866): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54875): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54885): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54894): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54903): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54913): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(54922): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55186): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55195): note: see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55205): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55214): note: see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55162): note: see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\winerror.h(55171): note: see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(1868): warning C4359: 'Mono_Security_X509_X509Certificate_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(5218): warning C4359: 'System_LocalDataStoreElement_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(5270): warning C4359: 'System_LocalDataStoreSlot_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(5297): warning C4359: 'System_LocalDataStoreMgr_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(11051): warning C4359: 'System_TimeZoneInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(11124): warning C4359: 'System_TimeZoneInfo_AdjustmentRule_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(16917): warning C4359: 'System_Resources_ResourceReader_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(24790): warning C4359: 'System_Globalization_EraInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(24822): warning C4359: 'System_Globalization_GregorianCalendarHelper_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(34816): warning C4359: 'System_Security_Cryptography_SHA1Internal_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(35725): warning C4359: 'System_Runtime_Serialization_ObjectManager_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(35766): warning C4359: 'System_Runtime_Serialization_ObjectHolder_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(35804): warning C4359: 'System_Runtime_Serialization_FixupHolder_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(36486): warning C4359: 'System_Runtime_Serialization_ValueTypeFixupInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38017): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_WriteObjectInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38184): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_ObjectReader_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38283): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_ObjectWriter_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38328): warning C4359: 'System_Runtime_Serialization_Formatters_Binary___BinaryParser_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38377): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_ParseRecord_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(38609): warning C4359: 'System_Runtime_Serialization_Formatters_Binary_NameInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(41292): warning C4359: 'System_Runtime_Remoting_Messaging_AsyncResult_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(46835): warning C4359: 'System_Diagnostics_Tracing_EventSource_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(49185): warning C4359: 'System_Diagnostics_StackFrame_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(49320): warning C4359: 'System_Diagnostics_Tracing_TraceLoggingTypeInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(52844): warning C4359: 'System_Diagnostics_Tracing_EventProvider_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(53040): warning C4359: 'System_Diagnostics_Tracing_TraceLoggingEventTypes_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(53133): warning C4359: 'System_Diagnostics_Tracing_TypeAnalysis_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(53191): warning C4359: 'System_Diagnostics_Tracing_ActivityTracker_ActivityInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(56513): warning C4359: 'Mono_Security_X509_X509Certificate_1_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(57506): warning C4359: 'Mono_Security_Interface_MonoTlsSettings_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(61357): warning C4359: 'MS_Internal_Xml_XPath_XPathScanner_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(62724): warning C4359: 'System_Xml_XmlReaderSettings_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(72046): warning C4359: 'System_Xml_Schema_SchemaDeclBase_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(75965): warning C4359: 'Mono_Unity_UnityTls_unitytls_interface_struct_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(78871): warning C4359: 'System_Uri_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(79950): warning C4359: 'System_Text_RegularExpressions_Regex_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(80921): warning C4359: 'System_Diagnostics_Stopwatch_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(82629): warning C4359: 'System_Security_Cryptography_X509Certificates_X509ChainPolicy_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(83594): warning C4359: 'System_Net_IPAddress_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(85075): warning C4359: 'System_Net_Cookie_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(85276): warning C4359: 'System_Net_CookieCollection_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(86150): warning C4359: 'System_Net_DigestSession_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(87078): warning C4359: 'System_Net_ServicePoint_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(87570): warning C4359: 'System_Net_WebConnectionGroup_ConnectionState_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(118785): warning C4359: 'UnityEngine_UIElements_EventBase_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(126715): warning C4359: 'UnityEngine_Purchasing_Security_X509Cert_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127072): warning C4359: 'UnityEngine_Purchasing_Security_AppleReceipt_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127103): warning C4359: 'UnityEngine_Purchasing_Security_AppleInAppPurchaseReceipt_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127141): warning C4359: 'LipingShare_LCLib_Asn1Processor_Asn1Node_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(127583): warning C4359: 'UnityEngine_Purchasing_PayoutDefinition_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(137630): warning C4359: 'UnityEngine_Purchasing_Price_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(137780): warning C4359: 'UnityEngine_Purchasing_ProductCatalogPayout_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(137981): warning C4359: 'UnityEngine_Purchasing_ProfileData_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(138224): warning C4359: 'UnityEngine_Purchasing_SubscriptionInfo_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(139913): warning C4359: 'Hazel_ConnectionStatistics_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(140067): warning C4359: 'Hazel_UPnP_UPnPHelper_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(140130): warning C4359: 'Hazel_Udp_BroadcastPacket_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(142113): warning C4359: 'Steamworks_CallResult_T__Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(157413): warning C4359: 'Steamworks_gameserveritem_t_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(190505): warning C4359: 'StatsManager_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(194720): warning C4359: 'GoogleMobileAds_Api_AdRequest_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(194751): warning C4359: 'GoogleMobileAds_Api_AdRequest_Builder_Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\dump.h(291572): warning C4359: 'Steamworks_CallResult_object__Fields': Alignment specifier is less than actual alignment (8), and will be ignored.
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\global.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\global.h(76): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\global.h(93): warning C4305: 'initializing': truncation from 'int' to 'bool'
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\d3d11hook.hpp(484): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\d3d11hook.hpp(488): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  mem.cpp
+  Memory.cpp
+  Generating Code...
+c:\users\josua\downloads\imgui-directx-11-kiero-hook-master\imgui-directx-11-kiero-hook-master\amongushook\d3d11hook.hpp(144): warning C4715: 'D3D11Hook': not all control paths return a value
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+  Generating Code...
+  AmongUsHackDll.vcxproj -> C:\Users\josua\Downloads\ImGui-DirectX-11-Kiero-Hook-master\ImGui-DirectX-11-Kiero-Hook-master\Debug\AmongUsHookDll.dll
