@@ -66,7 +66,10 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 
  Vector2 hkGetTruePosition(void* PlayerControl)
 {
+	 CleanLAndBInLobby = false;
+	 
 	 Vector2 me = oGetTruePosition(PlayerControl);
+		
 	 MainCameraInstance = oGet_MainCamera();
 	 IsExecutingSomeHookFunc = true;
 	 if (isReady != false &&
@@ -80,11 +83,15 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 			 {
 				 for (unsigned int i = 0; i < 10; i++)
 				 {
-					 PlayersInfo[i] = oGetPlayerById(gamedataInstance, i);
+					 PlayersInfo[i] = (GameData_PlayerInfo_o*)oGetPlayerById(gamedataInstance, i);
+					 
 					 if (PlayersInfo[i] != nullptr)
 					 {
+						 
+						
 						 if (PlayersInfo[i]->fields.IsDead == false || PlayersInfo[i]->fields.Disconnected == false)
 						 {
+							 
 							 enemyPos[i] = oGetTruePosition((void*)PlayersInfo[i]->fields._object);
 							 IsImpostor[i] = PlayersInfo[i]->fields.IsImpostor;
 							 colors[i] = (int)PlayersInfo[i]->fields.ColorId;
@@ -100,11 +107,32 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 								 enemyPosvec3[i].z = 0;
 							 }
 
-							 enemyPosInScreen[i] = (Vector3)ow2s(MainCameraInstance, enemyPosvec3[i]);
+							 if (PlayersInfo[i]->fields.Disconnected == true)
+							 {
+								 enemyPos[i].x = 0;
+								 enemyPos[i].y = 0;
+								 enemyPosInScreen[i].x = 0;
+								 enemyPosInScreen[i].y = 0;
+							 }
+
+							 if (status != 0)
+							 {
+								 enemyPosInScreen[i] = (Vector3)ow2s(MainCameraInstance, enemyPosvec3[i]);
+							 }
+							 else
+							 {
+								 enemyPos[i].x = 0;
+								 enemyPos[i].y = 0;
+								 enemyPosInScreen[i].x = 0;
+								 enemyPosInScreen[i].y = 0;
+							 }
+							 
 							 //enemyPosInScreen[i] = (Vector3)
 
 							 if (enemyPos[i].x == me.x)
 							 {
+								 MyCoords.x = enemyPosInScreen[i].x;
+								 MyCoords.y = enemyPosInScreen[i].y;
 								 enemyPosInScreen[i].x = 0;
 								 enemyPosInScreen[i].y = 0;
 							 }
@@ -118,6 +146,13 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 							 enemyPosInScreen[i].x = 0;
 							 enemyPosInScreen[i].y = 0;
 						 }
+					 }
+					 else
+					 {
+						 enemyPos[i].x = 0;
+						 enemyPos[i].y = 0;
+						 enemyPosInScreen[i].x = 0;
+						 enemyPosInScreen[i].y = 0;
 					 }
 				 }
 			 }
@@ -150,6 +185,11 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 }
 
  void hget_IsGameStarted(void* instance) {
+
+	
+	 
+	
+
 	 if (unload == true)
 	 {
 		 Unload();
@@ -161,6 +201,21 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 	{
 		status = *(int*)((uintptr_t)instance + 0x64);
 		isGameOver = oget_IsGameOver(instance);
+
+		if (status == 0 && CleanLAndBInLobby != true)
+		{
+			int i = 0;
+			Sleep(0);
+			while (i < 10)
+			{
+				enemyPos[i].x = 0;
+				enemyPos[i].y = 0;
+				enemyPosInScreen[i].x = 0;
+				enemyPosInScreen[i].y = 0;
+				i++;
+			}
+			CleanLAndBInLobby = true;
+		}
 	}
 	IsExecutingSomeHookFunc = false;
 	return oget_IsGameStarted(instance);

@@ -23,7 +23,6 @@ inline uintptr_t pDeviceoffs = 0x203b4;
 //maxCMD x 72 y 24
 
 //declaration
-
 inline int status;
 inline bool visibleDisabledBy = true;
 inline bool radarOn = false;
@@ -31,7 +30,7 @@ inline bool unload = false;
 inline unsigned int EntityListIndex;
 inline uintptr_t* playercontrolAddrPTR;
 
-//PlauersVariables
+//PlayersVariables
 inline Vector3 onScreenPos;
 inline PlayerControl_c* AllControls;
 inline int xCMD = 78, yCMD = 23;
@@ -48,6 +47,7 @@ inline IntVec2 distanceToMe[10];
 inline int maxPlayers;
 inline uintptr_t* playerinfoPtr;
 inline Players playerInfoToEsp;
+inline Vector2 MyCoords;
 
 inline  Present oPresent;
 inline  HWND window;
@@ -101,5 +101,7 @@ inline bool isReady = false;
 inline bool isGameOver = false;
 inline bool eject = false;
 inline bool IsExecutingSomeHookFunc = false;
+inline bool CleanLAndBInLobby = false;
 inline uintptr_t* enemyposptr;
 inline LPVOID pHandle;
+inline int WidthX = 0, HeightY = 0;

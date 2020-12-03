@@ -15,6 +15,9 @@ inline ID3D11PixelShader* pPixelShader = nullptr;
 inline ID3D11Buffer* pVertexBuffer = nullptr;
 inline ID3D11Buffer* pIndexBuffer = nullptr;
 inline ID3D11Buffer* pConstantBuffer = nullptr;
+float fHeight = 0;
+float fWidth = 0;
+
 
 #define safe_release(p) if (p) { p->Release(); p = nullptr; } 
 
@@ -266,7 +269,7 @@ void DrawLineB2(int x1, int y1, int x2, int y2, int tickness)
 
 void DrawLine(int x1, int y1, int x2, int y2, int tickness)
 {
-	int NewY2 = (600 - y2) - 100 ;
+	int NewY2 = (fHeight - y2);
 	
 	Vertex pVerts[3] = {
 
@@ -314,17 +317,19 @@ void DrawLine(int x1, int y1, int x2, int y2, int tickness)
 void DrawBox(int xCenter, int yCenter)
 {
 	int tickness = 8;
-	int NewY2 = (600 - yCenter) - 100;
-	DrawLineB(xCenter - 30, NewY2 - 25, xCenter + 30, NewY2 - 25, tickness);
-	DrawLineB2(xCenter - 30, NewY2 - 25, xCenter - 30, NewY2 + 30, tickness);
+	int NewY2 = (fHeight - yCenter);
+	DrawLineB(xCenter - 30, NewY2 - 63, xCenter + 30, NewY2 - 63, tickness);
+	DrawLineB2(xCenter - 30, NewY2 - 63, xCenter - 30, NewY2, tickness);
 
-	DrawLineB(xCenter - 30, NewY2 + 34, xCenter + 30, NewY2 + 34, tickness);
-	DrawLineB2(xCenter + 30, NewY2 - 33, xCenter + 30, NewY2 + 34, tickness);
+	DrawLineB(xCenter - 30, NewY2, xCenter + 30, NewY2, tickness);
+	DrawLineB2(xCenter + 30, NewY2 - 70, xCenter + 30, NewY2, tickness);
 
 	///`````
 
 	
 }
+
+
 
 bool InitD3DHook(IDXGISwapChain * pSwapchain2)
 {
@@ -390,8 +395,7 @@ bool InitD3DHook(IDXGISwapChain * pSwapchain2)
 	D3D11_VIEWPORT vp{ 0 };
 	UINT numViewports = 1;
 	// 
-	float fWidth = 0;
-	float fHeight = 0;
+	
 	pContext2->RSGetViewports(&numViewports, &vp);
 	// Usually this won't fail but if it does...
 	if (!numViewports)
@@ -400,6 +404,8 @@ bool InitD3DHook(IDXGISwapChain * pSwapchain2)
 		fWidth = 800.0f;
 		fHeight = 600.0f;
 
+		WidthX = fWidth;
+		HeightY = fWidth;
 		// Setup viewport
 		D3D11_VIEWPORT vp{ 0 };
 		vp.Width = (float)fWidth;
@@ -481,7 +487,7 @@ void Render()
 			{
 				if (bESP)
 				{
-					DrawLine(800 / 2, 0, enemyPosInScreen[i].x, enemyPosInScreen[i].y, 5);
+					DrawLine(fWidth / 2, 5 , enemyPosInScreen[i].x, enemyPosInScreen[i].y, 7);
 				}
 				if (bBoxESP)
 				{

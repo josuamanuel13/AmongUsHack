@@ -48,6 +48,7 @@ void Update()
 		{
 			inMatchParameter();
 		}
+
 		break;
 
 	case Lobby:
@@ -58,11 +59,15 @@ void Update()
 		break;
 
 	case WaitingMatch:
+	{
 		if (OnWaitMatchParameterAplied != true)
 		{
 			WaitingMatchParametter();
 		}
+
+		
 		break;
+	}
 	}
 }
 
