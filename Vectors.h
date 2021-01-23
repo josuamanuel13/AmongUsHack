@@ -1,4 +1,6 @@
 #pragma once
+#include <algorithm>
+#define PI 3.1415927f
 
 struct IntVec2
 {
@@ -28,17 +30,32 @@ struct Matrix4x4
 	float m30, m31, m32, m33;
 };
 
-class Players {
-public:
-	Vector3 Positions[10];
-	int Colors[10];
-	bool Impostor[10];
-	bool IsDeads[10];
-	void SetPosition();
-	void setColors();
-	void setImpostors();
-	void setIsDead();
-};
+inline Vector3 Subtract(Vector3 src, Vector3 dst)
+{
+	Vector3 diff;
+	diff.x = src.x - dst.x;
+	diff.y = src.y - dst.y;
+	diff.z = src.z - dst.z;
+	return diff;
+}
+
+inline float Magnitude(Vector3 vec)
+{
+	return sqrtf(vec.x*vec.x + vec.y*vec.y + vec.z*vec.z);
+}
+
+inline float Distance(Vector3 src, Vector3 dst)
+{
+	Vector3 diff = Subtract(src, dst);
+	return Magnitude(diff);
+}
+
+inline float Distance2D(Vector3 first, Vector3 Second)
+{
+	return sqrtf(powf((Second.x - first.x), 2) + powf((Second.y - first.y), 2) + powf((Second.z - first.z), 2));
+}
+
+
 
 
 

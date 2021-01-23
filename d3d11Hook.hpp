@@ -15,6 +15,7 @@ inline ID3D11PixelShader* pPixelShader = nullptr;
 inline ID3D11Buffer* pVertexBuffer = nullptr;
 inline ID3D11Buffer* pIndexBuffer = nullptr;
 inline ID3D11Buffer* pConstantBuffer = nullptr;
+
 float fHeight = 0;
 float fWidth = 0;
 
@@ -280,7 +281,7 @@ void DrawLine(int x1, int y1, int x2, int y2, int tickness)
 		{ XMFLOAT3(left + x2,				top - NewY2,	1.0f),	XMFLOAT4(1.0f, 0.0f, 1.0f, 1.0f) },
 
 	};
-	D3D11_BUFFER_DESC bd{ 0 };
+
 	ZeroMemory(&bd, sizeof(bd));
 	bd.BindFlags = D3D11_BIND_VERTEX_BUFFER;
 	bd.Usage = D3D11_USAGE_DEFAULT;
@@ -318,11 +319,11 @@ void DrawBox(int xCenter, int yCenter)
 {
 	int tickness = 8;
 	int NewY2 = (fHeight - yCenter);
-	DrawLineB(xCenter - 30, NewY2 - 63, xCenter + 30, NewY2 - 63, tickness);
-	DrawLineB2(xCenter - 30, NewY2 - 63, xCenter - 30, NewY2, tickness);
+	DrawLineB(xCenter - 30, NewY2 - 30, xCenter + 30, NewY2 - 30, tickness);
+	DrawLineB2(xCenter - 30, NewY2 - 30, xCenter - 30, NewY2 + 30, tickness);
 
-	DrawLineB(xCenter - 30, NewY2, xCenter + 30, NewY2, tickness);
-	DrawLineB2(xCenter + 30, NewY2 - 70, xCenter + 30, NewY2, tickness);
+	DrawLineB(xCenter - 30, NewY2 + 30, xCenter + 30, NewY2 + 30, tickness);
+	DrawLineB2(xCenter + 30, NewY2 + 30, xCenter + 30, NewY2 - 36, tickness);
 
 	///`````
 

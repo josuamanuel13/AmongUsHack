@@ -25,3 +25,5 @@ void InitImGui();
 //void DrawLine(ID3D11Device Device_Interface, int x1, int y1, int x2, int y2, int tickness, D3DCOLOR COLOR);
 
 void Render();
+
+int getClousesEnemies();

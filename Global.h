@@ -5,10 +5,11 @@
 #include "includes.h"
 
 //offsets
+/*
 inline uintptr_t getPlayerCount = 0xDA2780;
 inline uintptr_t getPlayerById = 0xD9F300;
 inline uintptr_t getTruePosition = 0x43C030;
-inline uintptr_t get_IsGameStarted = 0x7F6500;
+inline uintptr_t InnerNetUpdate = 0x7F6500;
 inline uintptr_t playerControlClassAddr = 0xDA5A84;
 inline uintptr_t get_IsGameOver = 0x7F6BA0;
 inline uintptr_t UpdateMeetingHud = 0x1B4290;
@@ -17,6 +18,11 @@ inline uintptr_t get_MainCamera = 0x6CAAE0;
 inline uintptr_t w2s = 0x6CA830;
 inline uintptr_t Drawline = 0x582950;
 inline uintptr_t pDeviceoffs = 0x203b4;
+inline uintptr_t ComponentGetTransform = 0x6CBCA0;
+inline uintptr_t TransformGetPosition = 0x723340;
+inline uintptr_t TransformSetPosition = 0x723790;
+
+*/
 
 
 
@@ -31,6 +37,7 @@ inline unsigned int EntityListIndex;
 inline uintptr_t* playercontrolAddrPTR;
 
 //PlayersVariables
+inline Vector2 me;
 inline Vector3 onScreenPos;
 inline PlayerControl_c* AllControls;
 inline int xCMD = 78, yCMD = 23;
@@ -44,10 +51,12 @@ inline bool IsImpostor[10];
 inline int colors[10];
 inline bool died[10];
 inline IntVec2 distanceToMe[10];
+inline void* PlayersTransforms[10];
+inline void* LocalPlayerTransform;
 inline int maxPlayers;
 inline uintptr_t* playerinfoPtr;
-inline Players playerInfoToEsp;
 inline Vector2 MyCoords;
+inline float Distances[10];
 
 inline  Present oPresent;
 inline  HWND window;
@@ -93,6 +102,7 @@ inline bool show = true;
 inline bool switchTabs = 7;
 inline bool bESP = false;
 inline bool bBoxESP = false;
+inline bool bTeleportToClosesEnemy = false;
 inline bool settedParameterStatus = NULL;
 inline bool OnWaitMatchParameterAplied = false;
 inline bool visible = false;

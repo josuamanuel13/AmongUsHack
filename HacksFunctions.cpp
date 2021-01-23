@@ -29,8 +29,8 @@ void OnLobbyParameter()
 
 void Cast()
 {
-	playercontrolAddrPTR = (uintptr_t*)(GameAssemblyModBaseAddr + playerControlClassAddr);
-	AllControls = (PlayerControl_c*)*playercontrolAddrPTR;
+	//playercontrolAddrPTR = (uintptr_t*)(GameAssemblyModBaseAddr + playerControlClassAddr);
+	//AllControls = (PlayerControl_c*)*playercontrolAddrPTR;
 }
 
 void Update()
@@ -89,6 +89,7 @@ void _Setup()
 	//casting 
 	Cast();
 }
+
 
 /*void DrawLine(ID3D11Device* p_Device, int x1, int y1, int x2, int y2, int tickness, D3DCOLOR COLOR)
 {

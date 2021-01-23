@@ -6,6 +6,7 @@
 #include "HacksFunctions.h"
 #include <d3d9.h>
 #include "d3d11Hook.hpp"
+#include "Offsets.h"
 
 void LoadHook();
 
@@ -33,26 +34,41 @@ typedef bool(*tget_IsGameOver)(void* intance);
 
 typedef unsigned int(*tgetPlayerCount)(void* instance);
 
-tgetPlayerCount ogetPlayerCount = (tgetPlayerCount)(GameAssemblyModBaseAddr + getPlayerCount);
+typedef void*(*tGetTransform)(void* player);
 
-tw2s ow2s = (tw2s)(GameAssemblyModBaseAddr + w2s);
+typedef Vector3(*tGetPosition)(void* transform);
+
+typedef void(*tSetPosition)(void* transform, Vector3 Position);
+
+
+tgetPlayerCount ogetPlayerCount = (tgetPlayerCount)(GameAssemblyModBaseAddr + dump::getPlayerCount_0);
+
+tw2s ow2s = (tw2s)(GameAssemblyModBaseAddr + dump::w2s_0);
 
 //tDrawLine oDrawLine = (tDrawLine)(OverlayModBase + Drawline);
 
-tGet_MainCamera oGet_MainCamera = (tGet_MainCamera)(GameAssemblyModBaseAddr + get_MainCamera);
+tGet_MainCamera oGet_MainCamera = (tGet_MainCamera)(GameAssemblyModBaseAddr + dump::getMainCamera_0);
 
-tGetAmiBanned oGetAmiBanned = (tGetAmiBanned)(GameAssemblyModBaseAddr + getAmIBanned);
+//tGetAmiBanned oGetAmiBanned = (tGetAmiBanned)(GameAssemblyModBaseAddr + getAmIBanned);
 
-tget_IsGameOver oget_IsGameOver = (tget_IsGameOver)(GameAssemblyModBaseAddr + get_IsGameOver);
+tget_IsGameOver oget_IsGameOver = (tget_IsGameOver)(GameAssemblyModBaseAddr + dump::IsGameOver_0);
 
- tGetPlayerById oGetPlayerById = (tGetPlayerById)(GameAssemblyModBaseAddr + getPlayerById);
+ tGetPlayerById oGetPlayerById = (tGetPlayerById)(GameAssemblyModBaseAddr + dump::FindPlayerByID_0);
 
 
-tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr + getTruePosition);
+tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr + dump::GetTruePosition_Recomended);
 
- tget_IsGameStarted oget_IsGameStarted = (tget_IsGameStarted)(GameAssemblyModBaseAddr + get_IsGameStarted);
+ tget_IsGameStarted oget_IsGameStarted = (tget_IsGameStarted)(GameAssemblyModBaseAddr + dump::InnerNetUpdate_0);
 
- tUpdateMeetingHud oUpdateMeetingHud = (tUpdateMeetingHud)(GameAssemblyModBaseAddr + UpdateMeetingHud);
+ //tUpdateMeetingHud oUpdateMeetingHud = (tUpdateMeetingHud)(GameAssemblyModBaseAddr + UpdateMeetingHud);
+
+ tGetTransform oGetTransform = (tGetTransform)(GameAssemblyModBaseAddr + dump::GetTranform_0);
+
+ tGetPosition oGetPosition = (tGetPosition)(GameAssemblyModBaseAddr + dump::TransformGetPos_0);
+
+ tSetPosition oSetPosition = (tSetPosition)(GameAssemblyModBaseAddr + dump::TransformSetPos_0);
+ 
+ 
 
  void* hGet_MainCamera()
  {
@@ -66,20 +82,22 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 
  Vector2 hkGetTruePosition(void* PlayerControl)
 {
+	 int clouses = -1;
+	 float distance = 99999;
 	 CleanLAndBInLobby = false;
 	 
-	 Vector2 me = oGetTruePosition(PlayerControl);
+	 me = oGetTruePosition(PlayerControl);
 		
 	 MainCameraInstance = oGet_MainCamera();
 	 IsExecutingSomeHookFunc = true;
 	 if (isReady != false &&
 		 status != 0 && isGameOver != true)
 	 {
-		 if (AllControls != NULL)
-		 {
+		 //if (//AllControls != NULL)
+		// {
 			 EntityListIndex = ogetPlayerCount(gamedataInstance);//*(unsigned int *)(*(unsigned int *)(((uintptr_t)gamedataInstance) + 0x24) + 0xc);
 
-			 if (EntityListIndex != 1)
+			 if (EntityListIndex > 0)
 			 {
 				 for (unsigned int i = 0; i < 10; i++)
 				 {
@@ -92,14 +110,31 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 						 if (PlayersInfo[i]->fields.IsDead == false || PlayersInfo[i]->fields.Disconnected == false)
 						 {
 							 
-							 enemyPos[i] = oGetTruePosition((void*)PlayersInfo[i]->fields._object);
+							 // = oGetTruePosition((void*)PlayersInfo[i]->fields._object);
 							 IsImpostor[i] = PlayersInfo[i]->fields.IsImpostor;
 							 colors[i] = (int)PlayersInfo[i]->fields.ColorId;
 							 died[i] = PlayersInfo[i]->fields.IsDead;
+							 
 
 							 enemyPosvec3[i].x = enemyPos[i].x;
 							 enemyPosvec3[i].y = enemyPos[i].y;
 							 enemyPosvec3[i].z = 0;
+							 PlayersTransforms[i] = (void*)oGetTransform((void*)PlayersInfo[i]->fields._object);
+							 LocalPlayerTransform = (void*)oGetTransform((void*)PlayerControl);
+							 enemyPosvec3[i] =(Vector3)oGetPosition(PlayersTransforms[i]);
+
+							 if (me.x != enemyPosvec3[i].x)
+							 {
+								 Distances[i] = Distance({ me.x, me.y, 0 }, enemyPosvec3[i]);
+
+								 if (Distances[i] < distance)
+								 {
+									 clouses = i;
+									 distance = Distances[i];
+								 }
+							 }
+							 
+							 
 							 if (died[i] == true)
 							 {
 								 enemyPosvec3[i].x = 0;
@@ -155,11 +190,19 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 						 enemyPosInScreen[i].y = 0;
 					 }
 				 }
-			 }
-			 else
-			 {
-				 isReady = false;
-			 }
+
+				 if (bTeleportToClosesEnemy && clouses != -1)
+				 {
+					 enemyPosvec3[clouses].x += 0.01;
+					 
+					 oSetPosition(LocalPlayerTransform, (Vector3)enemyPosvec3[clouses]);
+				 }
+			//}
+				 
+			// else
+			// {
+			//	 isReady = false;
+			// }
 
 
 		 }
@@ -168,7 +211,11 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 	 else
 	 {
 		 gamedataInstance = NULL;
-		 gamedataInstance = (void*)(mem::FindDMAAddy((GameAssemblyModBaseAddr + 0x14B2E9C), { 0x5c, 0x0, 0x0 }));
+		 gamedataInstance = (void*)(mem::FindDMAAddy((GameAssemblyModBaseAddr + 0x1C57BE8), { 0x5c, 0x0, 0x0 }));
+		 //if (PlayerControl)
+		// {
+			// gamedataInstance = PlayerControl;
+		// }
 
 		 if (gamedataInstance != NULL)
 		 {
@@ -241,25 +288,25 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 	 oGetPlayerById = (tGetPlayerById)TrampHook((BYTE*)oGetPlayerById, (BYTE*)hGetPlayerById, 10);
 	 oGetTruePosition = (tGetTruePosition)TrampHook((BYTE*)oGetTruePosition, (BYTE*)hkGetTruePosition, 6);
 	 oget_IsGameStarted = (tget_IsGameStarted)TrampHook((BYTE*)oget_IsGameStarted, (BYTE*)hget_IsGameStarted, 5);
-	 oGetAmiBanned = (tGetAmiBanned)TrampHook((BYTE*)oGetAmiBanned, (BYTE*)hGetAmiBanned, 5);
+	 //oGetAmiBanned = (tGetAmiBanned)TrampHook((BYTE*)oGetAmiBanned, (BYTE*)hGetAmiBanned, 5);
  }
 
  void Unload()
  {
 	 //unhook getPlayer By ID
-	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + getPlayerById), (BYTE*)"\x55\x8b\xec\x80\x3d\x89\xb1\xd7\x05\x00", 10);
+	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + dump::FindPlayerByID_0), (BYTE*)"\x55\x8b\xec\x80\x3d\x89\xb1\xd7\x05\x00", 10);
 
 	 //unhook meetenghood update
-	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + UpdateMeetingHud), (BYTE*)"\x55\x8b\xec\x83\xec\x30", 6);
+	// mem::Patch((BYTE*)(GameAssemblyModBaseAddr + UpdateMeetingHud), (BYTE*)"\x55\x8b\xec\x83\xec\x30", 6);
 
 	 //unhook oGetTruePosition
-	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + getTruePosition), (BYTE*)"\x55\x8b\xec\x83\xec\x14", 6);
+	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + dump::GetTruePosition_Recomended), (BYTE*)"\x55\x8b\xec\x83\xec\x14", 6);
 
 	 //unhook isGameStarted
-	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + get_IsGameStarted), (BYTE*)"\x55\x8b\xec\x6a\xff", 5);
+	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + dump::InnerNetUpdate_0), (BYTE*)"\x55\x8b\xec\x6a\xff", 5);
 
 	 //unhook isGameStarted
-	 mem::Patch((BYTE*)(GameAssemblyModBaseAddr + getAmIBanned), (BYTE*)"\x55\x8b\xec\x6a\x00", 5);
+	// mem::Patch((BYTE*)(GameAssemblyModBaseAddr + getAmIBanned), (BYTE*)"\x55\x8b\xec\x6a\x00", 5);
 
  }
 
@@ -341,9 +388,11 @@ tGetTruePosition oGetTruePosition = (tGetTruePosition)(GameAssemblyModBaseAddr +
 		 case 0: //Main TAB
 
 			 ImGui::Checkbox("ESP TriangleLine", &bESP);
-			 ImGui::SameLine(0.0, 6.0f);
+			 //ImGui::SameLine(0.0, 6.0f);
 			 ImGui::Checkbox("ESP Box", &bBoxESP);
-			 ImGui::SameLine(0.0, 6.0f);
+			 //ImGui::SameLine(0.0, 6.0f);
+			 ImGui::Checkbox("Teleport To Clouses Enemies", &bTeleportToClosesEnemy);
+			// ImGui::SameLine(0.0, 6.0f);
 
 
 			 break;
